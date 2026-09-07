@@ -208,7 +208,7 @@ def plot_loss(loss_list):
     plt.title("Evolution of the loss during the training")
     plt.xlabel("iteration")
     plt.xscale('log')
-    plt.ylabel("Loss")
+    plt.ylabel("Loss (kg/km)²")
     plt.show()
 
 
